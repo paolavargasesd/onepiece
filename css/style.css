@@ -5,6 +5,7 @@
 
 html,
 body {
+    
     height: 100%;
     width: 100%;
 }
@@ -78,6 +79,7 @@ header .nav>li:hover {
 /* 恶魔果实 */
 
 #fruit {
+    background-image: url(../img/bg/header-bg.jpg);
     margin: 120px auto;
 }
 
@@ -105,13 +107,13 @@ header .nav>li:hover {
 
 .fruit-box li h3 {
     font-size: 22px;
-    color: #333;
+    color: white;
     margin-top: 10px;
 }
 
 .fruit-box li h5 {
     font-size: 16px;
-    color: rgb(110, 108, 108);
+    color: white;
     font-style: italic;
     margin-top: 10px;
 }
@@ -126,6 +128,7 @@ header .nav>li:hover {
 
 /* 强者世界 */
 #hero {
+    background-image: url(../img/bg/header-bg.jpg);
     width: 100%;
     overflow: hidden;
 }
@@ -163,12 +166,12 @@ header .nav>li:hover {
     margin: 10px auto 5px;
     font-size: 18px;
     font-weight: bold;
-    color: #333
+    color: white;
 }
 
 .hero-box figure p {
     font-size: 14px;
-    color: #777788;
+    color: white;
     margin-top: 0;
     font-style: italic;
 }
