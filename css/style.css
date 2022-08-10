@@ -26,6 +26,10 @@ li {
     width: 100%;
 }
 /* 首屏 */
+.santi{
+    text-align: center;
+    margin: 20%;
+}
 header {
     width: 100%;
     height: 100%;
@@ -33,7 +37,7 @@ header {
 }
 
 header nav {
-    position: fixed;
+    position: center;
     width: 1200px;
     background: rgba(0, 0, 0, .6);
     overflow: hidden;
@@ -79,7 +83,7 @@ header .nav>li:hover {
 /* 恶魔果实 */
 
 #fruit {
-    background-image: url(../img/bg/header-bg.jpg);
+   
     margin: 120px auto;
 }
 
@@ -128,7 +132,7 @@ header .nav>li:hover {
 
 /* 强者世界 */
 #hero {
-    background-image: url(../img/bg/header-bg.jpg);
+    
     width: 100%;
     overflow: hidden;
 }
